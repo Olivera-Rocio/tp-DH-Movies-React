@@ -1,23 +1,26 @@
 import React from 'react';
 import ContentRowTop from './ContentRowTop';
 import Footer from './Footer';
+import Table from './Table';
 import TopBar from './TopBar';
 
 const Contentwrapper = () => {
     return (
         <div id="content-wrapper" className="d-flex flex-column">
-			
-			<div id="content">
 
-            <TopBar/>
+            <div id="content">
 
-            <ContentRowTop/>
+                <TopBar />
 
-			</div>
+                <ContentRowTop />
 
-			<Footer/>
+            </div>
 
-		</div>
+            <Table/>
+
+            <Footer />
+
+        </div>
     );
 }
 
